@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Formulaire d'inscription</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles/styleInscription.css" />
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 class="form-title">Inscription</h1>
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="fullName">Nom Complet</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Entrez le nom complet"/>
+          </div>
+          <div class="user-input-box">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Entrez un username"/>
+          </div>
+          <div class="user-input-box">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Entrez votre email"/>
+          </div>
+          <div class="user-input-box">
+            <label for="phoneNumber">Numero de telephone</label>
+            <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Entrez votre Numero mobile"/>
+          </div>
+          <div class="user-input-box">
+            <label for="password">Mot de passe</label>
+            <input type="password" id="password" name="password" placeholder="Entrez un mot de passe"/>
+          </div>
+          <div class="user-input-box">
+            <label for="confirmPassword">Confirmez mot de passe</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirmez votre mot de passe"/>
+          </div>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">Genre</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Femelle</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Autre</label>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <input type="submit" value="Creer un Compte">
+        </div>
+      </form>
+      <div class="main-menu-link ">
+        <a href="index.html">Retour au Menu Principal</a>
+      </div>
+    </div>
+  </body>
+</html>

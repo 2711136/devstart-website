@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta type="description" content="Ceci est mon premier site en tant qu' etudiant" >
+        <meta type="description" content="Ceci est mon premier site en tant qu'etudiant" >
         <title>Devstar</title>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -15,7 +15,11 @@
         <header>
 
           <div class="boxed" >
-            <div class="flex aligncenter space-between " >
+            <div class="flex aligncenter space-between" >
+                <button  onclick="openMenu()" class="header-menu-mobile">
+                    <span class="material-icons"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg></span>
+                   
+                </button>
                 <a href="index.html" class="header-logo" >
                     <img src="img/icons8-internet-96.png" >
 
@@ -26,6 +30,11 @@
                     <li> <a href="inscription.html">Inscription</a> </li>
                     <li> <a href="contact.html">Contact</a> </li>
                 </ul>
+
+                <button  onclick="openMenu()" class="header-menu-mobile-exit">
+                    <span class="material icons"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 24 24" width="20px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg></span>
+                   
+                </button>
 
             </div>
           </div>  
@@ -43,8 +52,8 @@
 
         <div class="section" >
                 <div class="boxed" >
-                    <div class="flex">
-                        <div class="w40" >
+                    <div class="flex toColumn mCenter">
+                        <div class="w40 wm100 " >
                             <h2>A propos du site </h2>
                         </div>
 
@@ -60,23 +69,23 @@
             <div class="boxed text-center" >
                 <h2>Les languages enseignés : </h2>
                 <br>
-                <div class="flex gap20 " >
-                    <div class="w25 skill " >
+                <div class="flex toColumn gap20 " >
+                    <div class="w25 wm100 skill " >
                         <img src="img/html.png" >
                         <h3>HTML</h3>
                     </div>
 
-                    <div class="w25 skill " >
+                    <div class="w25 wm100 skill " >
                         <img src="img/css.png" >
                         <h3>CSS</h3>
                     </div>
 
-                    <div class="w25 skill " >
+                    <div class="w25 wm100 skill " >
                         <img src="img/javascript.png" >
                         <h3>JAVASCRIPT</h3>
                     </div>
 
-                    <div class="w25 skill " >
+                    <div class="w25 wm100 skill " >
                         <img src="img/php.png" >
                         <h3>PHP</h3>
                     </div>
@@ -90,7 +99,7 @@
                 <h2>Vos Futurs aptitudess</h2>
                 <br>
                 <div class="flex wrap gap20 space-between" >
-                    <div class="w32 realisation" >
+                    <div class="w32 wm100 realisation" >
                         <a href="">
                             <img src="img/creation.jpg" >
                             <h3>Site web</h3>
@@ -98,7 +107,7 @@
                         
                     </div>
 
-                    <div class="w32 realisation" >
+                    <div class="w32 wm100 realisation" >
                         <a href="">
                             <img src="img/istockphoto-1483652033-1024x1024.jpg" >
                             <h3>Application de geolocalisation</h3>
@@ -106,7 +115,7 @@
                         
                     </div>
 
-                    <div class="w32 realisation" >
+                    <div class="w32 wm100 realisation" >
                         <a href="">
                             <img src="img/web-development-7265717_1280.png" >
                             <h3>Programmation</h3>
@@ -123,23 +132,23 @@
             <div class="boxed text-center" >
                 <h2>Contactez-moi </h2>
                 <br>
-                <div class="flex space-between" >
+                <div class="flex toColumn space-between mgap20 " >
 
-                    <div class="w32 contact ">
+                    <div class="w32 wm100 contact ">
                         <span class="material-icons  icon " >mail</span>
                         <span class="label" >e-mail</span>
                         <span class="value" >loumbamba375@gmail.com</span>
 
                     </div>
 
-                    <div class="w32 contact ">
+                    <div class="w32 wm100 contact ">
                         <span class="material-icons  icon " >call</span>
                         <span class="label" >Telephone</span>
                         <span class="value" >(613)-914-8377</span>
 
                     </div>
 
-                    <div class="w32 contact ">
+                    <div class="w32 wm100 contact ">
                         <span class="material-icons  icon " >fax</span>
                         <span class="label" >Fax</span>
                         <span class="value" >418 643-3211</span>
